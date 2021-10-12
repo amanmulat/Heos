@@ -1,0 +1,15 @@
+.rightpart {
+  width: 80%;
+  padding-top: 5vh;
+}
+.elipse {
+  transition: all 0.3s;
+  transform-origin: center center;
+}
+.elipse:hover {
+  fill: var(--lighter-main-color);
+  /* transform: scale(1.2); */
+}
+svg {
+  width: 100%;
+}

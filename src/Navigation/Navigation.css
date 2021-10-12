@@ -1,0 +1,66 @@
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--gray-color);
+  text-decoration: none;
+}
+.navigation {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.active {
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+nav > h1 {
+  margin-right: auto;
+  /* color: var(--main-color); */
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links > li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav__links > li > a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links > li > a:hover {
+  color: var(--main-color);
+}
+nav > a > button {
+  padding: 9px 25px;
+  background-color: var(--main-color);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+nav > ul > li > a > button:hover {
+  background-color: var(--lighter-main-color);
+}
+.nav__links > li > a > button {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  padding: 6px 10px;
+  color: var(--inside-button-color);
+}
