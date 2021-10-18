@@ -3,6 +3,7 @@ import "./Navigation.css"
 function Navigation() {
     const [navi, setnavi] = useState(false)
     const [logo, setLogo] = useState(false)
+    //white background on navigation
     const changeBackground = () => {
         if (window.scrollY >= 80) {
             setnavi(true)
